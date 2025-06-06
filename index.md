@@ -17,8 +17,10 @@ date: June 6, 2025
 <p> This plot shows the relationship between the number of games a user plays and the numbers of kills they get per game if they choose Cailtyn as their champion. It appears that the less number of games played, the more kills they may have gotten </p>
 
 <img src = "interestingaggregate.png">
-<p> This plot is aggregated by users that chose Ashe and users that chose Caitlyn as their champion and by the result. This may give us a general idea of what our conclusion may look like. 
+<p> This table is grouped by users that chose Ashe and users that chose Caitlyn as their champion and by their result. This may give us a general idea of what our conclusion may look like. 
+
 <h2> Assessment of Missingness </h2>
+<p> I do believe that the 'damagetakenperminute' column is NMAR. We tested the 'damagetakenperminute' column to see if it is affected by other columns. To do this, we ran permutation tests to including the 'gamelength' column and the 'side' columnn. Those that tended to play a longer game had higher values in their 'damagetakenperminute'.
 
 <h2> Hypothesis Testing </h2>
 
