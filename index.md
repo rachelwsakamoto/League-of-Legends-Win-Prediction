@@ -1,3 +1,3 @@
 ---
-title: Welcome to my blog!
+title: League of Legends Win Prediction
 ---
