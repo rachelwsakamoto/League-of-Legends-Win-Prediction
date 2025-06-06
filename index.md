@@ -15,8 +15,11 @@ date: June 6, 2025
 
 <img src="bivariateanalysis.png">
 <p> This plot shows the relationship between the number of games a user plays and the numbers of kills they get per game if they choose Cailtyn as their champion. It appears that the less number of games played, the more kills they may have gotten </p>
+
+<img src = "interestingaggregate.png">
+<p> This plot is aggregated by users that chose Ashe and users that chose Caitlyn as their champion and by the result. This may give us a general idea of what our conclusion may look like. 
 <h2> Assessment of Missingness </h2>
- mewo
+
 <h2> Hypothesis Testing </h2>
 
 <h2> Framing a Prediction Problem </h2>
