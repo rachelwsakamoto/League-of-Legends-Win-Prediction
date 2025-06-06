@@ -35,6 +35,9 @@ date: June 6, 2025
 
 <h2> Framing a Prediction Problem </h2>
 
+<p> I want to predict whether a user will win or lose a match depending on if they choose Ashe or Caitlyn as their champion. This is an example of classification because we are trying to predict a dicrete outcome (win/loss) and there is no in between. This is binary classification because there are only two possible outocmes, win or lose. I plan to predict the 'results' column because at the end of the game, that is what ultimuately matters. Your rank will raise the more you win, not the more damage you inflict or the more towers you destroy. Using 0/1 to represent the win/loss makes it easier to manipulate and measure the data. </p>
+
+
 <h2> Baseline Model </h2>
 
 <h2> Final Model </h2>
