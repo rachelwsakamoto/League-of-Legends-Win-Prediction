@@ -22,7 +22,16 @@ date: June 6, 2025
 <h2> Assessment of Missingness </h2>
 <p> I do believe that the 'damagetakenperminute' column is NMAR. We tested the 'damagetakenperminute' column to see if it is affected by other columns. To do this, we ran permutation tests to including the 'gamelength' column and the 'side' columnn. Those that tended to play a longer game had higher values in their 'damagetakenperminute'.
 
+<p> not done </p>
+
 <h2> Hypothesis Testing </h2>
+
+<p> Null Hypothesis: Ashe and Caitlyn have the same average kills per game</p>
+<p> Alternative Hypothesis: Ashe and Caitlyn do not have the same average kills per game </p>
+<p> Test Statistic: Permutation Test</p>
+<p> Significance level: 0.05 </p>
+<p> p-value: 0.0610 </p>
+<p> I chose a permutation test because the distribution may be skewed because there are many different people that play this game, so normality is not guranteed. Permutation tests work for any sample size and distribution, so I thought it would be much safer to run a permutation test rather than a hypothesis test that has a lot of restrictions. </p>
 
 <h2> Framing a Prediction Problem </h2>
 
