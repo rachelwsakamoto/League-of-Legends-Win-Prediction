@@ -25,13 +25,13 @@ date: June 6, 2025
 <p> I do believe that the 'killsat25' column is NMAR. I tested the 'killsat25' column to see if it is affected by other columns. To do this, I ran permutation tests against the 'gamelength' column and the 'side' columnn. I believe that game length could play a role in the missing values of 'killsat25' but 'side' may not. I believe that empty values in 'killsat25' may be due to the fact that the game does not run longer than 25 minutes, so no value could be computed. Because of this, I believe that empyty values in 'killsat25' may be influenced by 'gamelength', making it NMAR.</p>
 
 <h3> Results of Missingness Test </h3>
-<p>Testing Game Length:
-Observed diff: 0.0598
-p-value: 0.0000
+<p>Testing Game Length:</p>
+<p>Observed diff: 0.0598</p>
+<p>p-value: 0.0000</p>
 
-Testing Side:
-Observed diff: 0.0000
-p-value: 1.0000 </p>
+<p>Testing Side:</p>
+<p>Observed diff: 0.0000</p>
+<p>p-value: 1.0000 </p>
 <p> Through the permutation test and the plot above, it is suggested that games with a higher game length tend to have missing values. This may mean that games may last long enough for kill values at the 25 minute mark to be reported. When testing the effect of the 'side' column, the p-value suggests that this column does not have an effect on the 'killsat25 column', unlike what was observed in the 'killsat25column'.
 <img src = "missingnessplot.png">
  
