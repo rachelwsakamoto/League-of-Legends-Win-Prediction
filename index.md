@@ -57,7 +57,7 @@ p-value: 1.0000 </p>
 <p> I used a Logistic Regression Pipeline for my baseline model without adjusting the hyperparameters. I used features from the 'champion' column (nominal) as well as the 'damagetakenperminute' column (quantitative). I used OneHotEncoder on the 'champion' column because each champion is its own distinct category with no specific order. For 'damagetakenperminute' I used Standard Scaler because it can be sensistive to each value in the column. The baseline accuracy for the baseline model was 0.5. I would not say this is the best baseline model because it is just as good as taking a ramdom guess. Because we are not tuning any of the hyperparamters, it makes sense why the accuracy is not as high. By adding more features and tuning hyperparameters accordingly, I think this baseline model can have potential to be more accurate.</p>
 <h2> Final Model </h2>
 
-<h2> Fairness Analysis </h2>
+<h2> Fairness Analysis meep </h2>
 import pandas as pd
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
